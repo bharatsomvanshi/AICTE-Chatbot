@@ -1,0 +1,178 @@
+{"intents": [
+    {"tag": "greetings",
+    "patterns": ["hello","hey","hii","hi","Greetings","what's up?"],
+    "responses": ["Hello! How can I help you?","Hey! What can I do for you?"]
+    },
+    {"tag": "goodbye",
+    "patterns": ["bye", "bbyee","see you later","goodbye","i am leaving","i am going"],
+    "responses": ["Thank you for visiting our website! Have a good day!"]
+    },
+    {"tag": "thanks",
+     "patterns": ["thanks", "thank you", "that's helpful", "thanks for the help"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "about",
+     "patterns": ["who are you?", "what are you?", "who you are?" ],
+     "responses": ["I.m AICTE Chatbot, your bot assistant", "I'm AICTE Chatbot, an Artificial Intelligent bot"]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name?"],
+    "responses": ["You can call me AICTE Chatbot.", "I'm AICTE Chatbot!", "Just call me as AICTE Chatbot"]
+    },
+    {"tag": "help",
+    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+    "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"]
+    },
+    {"tag": "approval process",
+    "patterns": ["Where I can find the information related to Approval Process 2022-23?","about Approval Process 2020-21","tell me the procedure for approval process"],
+    "responses": ["Information related to Approval Process 2020-21 available on AICTE Website's Homepage>Quick Links>Approval Process 2022-23."]
+    },
+    {"tag": "sign up credentials",
+    "patterns": ["How can I get New User-id and password (login credentials) for AICTE WebPortal?","How can I get New User-id and password?","how to get New User-id and password?"],
+    "responses": ["Please click on Sign Up link on AICTE Web-portal or go to link http://portal.aicteindia.org/partnerportal_enu. User Manual for Obtaining USERNAME and PASSWORD @ https://aicte-india.org/bureaus/approval/ap_2020-21"]
+    },
+    {"tag": "forgotten password",
+    "patterns": ["I have forgotten password for logging in AICTE Web Portal. What is the procedure to recover this?","I forgot my password what to do?"],
+    "responses": ["Please refer User Manual for Forgotten Password available @ https://aicteindia.org/bureaus/approval/ap_2022-23"]
+    },
+    {"tag": "User Id field mandatory",
+    "patterns": ["Is User Id field mandatory for 'Forgot Password'","Is User Id field mandatory for 'Forgot Password' form?"],
+    "responses": ["No, User Id is NOT mandatory. Only Permanent Institute Id is required for existing institute. In case of new institute (received Letter of Approval(LOA) in previous year) can enter Current Application Id."]
+    },
+    {"tag": "error display",
+    "patterns": ["When I try to login with Institute's Credentials, error message 'Invalid Username and Password' is displayed. What should I do?","about Approval Process 2020-21","error message displayed while logging in"],
+    "responses": ["Recheck the login credentials. Confirm whether someone else has logged in with the same credentials (Please note that per institute only ONE session is allowed. Hence, if someone tries for 2nd session then again invalid user name and password message will popup). If no session is live and still getting an invalid username and password message, then the password might be incorrect. In such cases, you can 'Request for forgot password'."]
+    },
+    {"tag": "not able to generate report",
+    "patterns": ["not able to generate report","I am not able to generate report?"],
+    "responses": ["Please refer 'User Manual for Report Generation' to generate Reports."]
+    },
+    {"tag": "Aadhaar/PAN details mandatory ",
+    "patterns": ["Is Aadhaar/PAN details mandatory to update faculty details","Is Aadhaar/PAN details mandatory to update faculty details in AICTE Web Portal?"],
+    "responses": ["Yes"]
+    },
+    {"tag": "update the faculty details by import method",
+    "patterns": ["How to update add the faculty details"," How to update add the faculty details by import method?"],
+    "responses": [" Please follow the User Manual available @ https://aicte-india.org/bureaus/approval/ap_2022-23 for uploading faculty details by import method"]
+    },
+    {"tag": "update the faculty details by import method",
+    "patterns": ["How to update add the faculty details"," How to update add the faculty details by import method?"],
+    "responses": [" Please follow the User Manual available @ https://aicte-india.org/bureaus/approval/ap_2022-23 for uploading faculty details by import method"]
+    },
+    {"tag": "Online Payment amount not updated",
+    "patterns": ["I have made Online Payment but amount is not updated in portal.","amount paid through online but not showing"],
+    "responses": ["Generally, payment receipt gets updated immediately. In case, your payment receipt is not updated then click on View Transaction Button under Payment tab. Otherwise, it will get updated in 48 to 72 working hours (2 to 3 working days). In case it is not updated even after that, please raise grievance with transaction details (Transaction Id generated while making the payment) through Online Grievance Redressal form. Link is available on Approval Process 2020-21 page."]
+    },
+    {"tag": "payment gateway problem",
+    "patterns": ["I am not able to make payment because AICTE Website is not directing to Payment Gateway.","not able to make payment","payment gateway not working"],
+    "responses": ["Please check whether your application has been submitted successfully or not. If submitted, then allow Popups for AICTE Website through Web browser URL."]
+    },
+    {"tag": "queries related to portal, payment and approval related issues",
+    "patterns": ["Where to send the queries related to portal, payment and approval related issues for the Academic Year 2022-23?","where to ask for help regarding portal","where to send query regarding payment","approval related issue"],
+    "responses": ["Raise a Grievance via grievance form available at https://www.facilities.aicteindia.org/Approval Process/apformEmail.php"]
+    },
+    {"tag": "fresh user id",
+    "patterns": ["Our Institution was allotted a User ID last year as a new Institution. Some information was uploaded but the application could not be submitted at that time. Now I want to know that the same User ID can be used for approval process 2020-21","can we use last year user id","application not able to submit last year can i use old user id"],
+    "responses": [" No, Institute need to apply for a fresh for getting login credentials. "]
+    },
+    {"tag": "about aicte",
+    "patterns": ["what is aicte","what aicte is made for","what is work of aicte"],
+    "responses": ["The All India Council for Technical Education (AICTE) is a statutory body, and a national-level council for technical education, under the Department of Higher Education.[5] Established in November 1945 first as an advisory body and later on in 1987 given statutory status by an Act of Parliament, AICTE is responsible for proper planning and coordinated development of the technical education and management education system in India."]
+    },
+    {"tag": "application for courses",
+    "patterns": ["Where to submit application for Vocational courses?","Where to submit application for  courses?"],
+    "responses": ["The application is to be submitted by the Institutions on the AICTE-Portal using username and password provided to login to AICTE Portal"]
+    },
+    {"tag": "eleigibilty criteria",
+    "patterns": ["What is the eligibility criteria of any Institution for applying under Vocational courses?"],
+    "responses": ["Only AICTE approved Institutions are eligible to apply. Institution willing to run these Courses should have AICTE approval in relevant area"]
+    },
+    {"tag": "skp meeting",
+    "patterns": ["When SKP meeting is held?","how much time skp meeting is held"],
+    "responses": ["The meeting is held quarterly."]
+    },
+    {"tag": "skp qualify",
+    "patterns": ["Who can apply for SKP?"],
+    "responses": ["Any company into training for sector under NSQF can apply for SKP"]
+    },
+    {"tag": "wrong submitted",
+    "patterns": ["By mistake, I have submitted my application. Is it possible to reopen the application once again to update the few details? ","wrong application submitted can i make changes","can i reopen the application to edit because submitted wrong"],
+    "responses": ["If you have not created any payment record under Payment tab then you can re-open the submitted application only once by clicking on 're-open application' button available under Attachments and Submit tab. Note: After re-open, the application should be resubmitted. Otherwise application will be treated as 'Application Not Submitted'. "]
+    },
+    {"tag": "queries related to  approval process 2022-2023",
+    "patterns": ["where to send the queries related to portal and approval related issues for the approval process 2022-23?"],
+    "responses": ["Institutes are requested to raise queries only through online Grievance Redressal mechanism available on AICTE website under Approval Process 2022-23 quick links. No queries through email will be entertained."]
+    },
+    {"tag": "about aicte -neqip scheme",
+    "patterns": ["What is AICTE-NEQIP Scheme?"],
+    "responses": ["The Project 'AICTE-North East Quality Improvement Programme (NEQIP)' is implementedcby All India Council for Technical Education (AICTE) in pursuance of the National Policy on Education (NPE-1986 revised in 1992) and Special attention given to the economic development of the North Eastern Region. "]
+    },
+    {"tag": "Arts and Science Courses",
+    "patterns": ["Does AICTE allow Arts and Science Courses in an Institution offering Engineering Courses?"],
+    "responses": ["Conduct of any other Academic Courses (Technical/Non-Technical): The Institutions may conduct Academic Courses (Technical/ Non-Technical of any other Regulatory Body) using the existing facilities in excess or by creating additional facilities as per the provisions laid down in the norms and standards of the respective Regulatory Bodywithout affecting the quality of education prescribed by all the Regulatory Bodies after taking NOC from the Council following the procedure specified in the Approval Process Handbook. However, the Applicant has to make Material/ Non-Material amendment of the Building Plan, Site Plan, etc. approved by the concerned Competent Authority (if applicable) to suit the requirements of the new Programme/Level. The total land required shall be the highest amongst the programs/ levels being offered by the Institute. However, institute shall have sufficient built up area to cover all the requirements of ALL the programs/ levels conducted as per the provisions of Approval Process Handbook. The institute shall extend to provide ample space for play-ground (owned or hired) facilities for indoor and outdoorsportsfor the students either in the Campus or through arrangements with other adjacent Institutions, Corporation grounds, private facilities, etc. *Institute may apply to council accordingly for NOC."]
+    },
+    {"tag": "regarding MBA/MCA",
+    "patterns": ["Whether MCA/ MBA Department of Arts and Science College is eligible to apply for AICTE approval?","Whether AICTE approval is needed for running MCA Course in our Arts and Science College?"],
+    "responses": ["For a and b: Yes. Refer Clause 1.3.5 of APH 2022-23. In case of non-Technical Institutions seeking approval for conducting MCA/ MBA and University Departments/ Constituent Colleges seeking approval for conducting MCA/ MBA/ M.Tech. Programmes apart from their existing Courses, separate building and Principal are NOT required. However, in such cases all other norms (as per APH 2022-23) such as separate Head of the Department, Faculty, Infrastructure, Built-Up area, etc. should be fulfilled."]
+    },
+    {"tag": "",
+    "patterns": ["We want to change details which are non-editable / read-only?"],
+    "responses": ["You may contact the Approval Bureau or Regional Office."]
+    },
+    {"tag": "submit compliance of deficiencies",
+    "patterns": ["Will the Institution get a chance to submit the compliance of deficiencies (if any) before the scrutiny/ Re-Scrutiny committee? "],
+    "responses": ["Yes , Institute can submit the compliance."]
+    },
+    {"tag": "got the first approval for our Institution,do we need to apply for EoA",
+    "patterns": ["We have got the first approval for our Institution in 2021-22. But we have NOT admitted students due the delay in getting affiliation. Do we need to apply for EoA?"],
+    "responses": ["ALL the applicants issued LoA for starting the New Technical Institutions shall apply on AICTE WebPortal for Extension of Approval (EOA) as specified in the Approval Process Handbook from the next Academic Year onwards, irrespective of the admission of the students. However, such institutes need to answer one Question related to this on portal in order to avoid deficiency"]
+    },
+    {"tag": "institution was given Withdrawal of Approval,we are not able to apply under 2022-23 application",
+    "patterns": ["Our Institution was given Withdrawal of Approval in 2018-19. We are not able to apply under 2022-23 application."],
+    "responses": ["You have to apply ONLY as a New Institution in 2022-23."]
+    },
+    {"tag": "",
+    "patterns": ["The Institution has been placed under 20% reduction for 2021-22. How to get the full Intake in 2022-23?","Our Institution was placed under No admission/ No EoA/ Reduction in Intake category in the previous year. We are not able to create 2022-23 application."],
+    "responses": ["Institutions are required to apply for Restoration on the Web Portal as per provision in the APH"]
+    },
+    {"tag": "taken approval from AICTE for the Engineering Courses in 2011-12,Now we want to apply for EoA in 2022-23,to fill our application on Web Portal of AICTE using that ID and Password?",
+    "patterns": ["We have taken approval from AICTE for the Engineering Courses in 2011-12. After that we could not take EoA from AICTE due to some reasons. Now we want to apply for EoA in 2022-23.We have ID and password allotted by AICTE in 2011. Should we continue to fill our application on Web Portal of AICTE using that ID and Password?"], 
+    "responses": [" Institutions which have NOT applied for EoA for last SIX YEARS consecutively shall NOT be eligible to apply under Break in EoA and such Institutions shall apply ONLY as a new Technical Institution following appropriate procedure for Closure of the Programmes/Courses approved."]
+    },
+    {"tag": " Intake was reduced due to the enrollment less than 30% in the past this year is more than 30%. Should we have to apply for Restoration in 2022-23",
+    "patterns": ["Our Intake was reduced to 50% due to the enrollment less than 30% in the past 5 years consecutively. The student admission this year is more than 30%. Should we have to apply for Restoration in 2022-23?"],
+    "responses": ["The Institution falling under this category need not apply for restoration and the Intake shallbe automatically reinstated by the Council, if the enrolment becomes more than 30% based on the student enrolment data provided by the Institution on AICTE Portal."]
+    },
+    {"tag": "diploma to degree and degree to diploma",
+    "patterns": ["I would like to convert from Diploma to Degree Level and vice-versa. How to do the same?"],
+    "responses": ["Refer Clause 2.8 of APH 2022-23."]
+    },
+    {"tag": "Break–in-EoA",
+    "patterns": ["If an Institute not applied for EoA in preceding academic year, How Institute will apply for the next academic year for EoA?"],
+    "responses": ["Such Institute shall be considered as “ Break–in-EoA” and will apply under Break-in-EoA."]
+    },
+    {"tag": "seats under nri category",
+    "patterns": [" How many seats allowed to an institution under NRI category?"],
+    "responses": ["Five percent (5%) of seats within “Approval Intake” shall be allowed for admission under NRI category"]
+    },
+    {"tag": "ICTE web-portal generates the deficiency report",
+    "patterns": [" Is AICTE web-portal generates the deficiency report for the online submitted application?"],
+    "responses": ["Yes"]
+    },
+    {"tag": "integrated program permission",
+    "patterns": ["is Integrated Programme permitted?"],
+    "responses": ["Yes. Refer Clause 2.15 of APH 2022-23 for eligible conditions."]
+    },
+    {"tag": "affiliating University does not appear",
+    "patterns": ["name of our affiliating University does not appear in the affiliating University drop down."],
+    "responses": ["Contact Approval Bureau for inclusion of the University name in the portal. Send an email of Institution representation on the Letter head to helpdeskab@aicte-india.org"]
+    },
+    {"tag": "",
+    "patterns": ["Our Institution wants to make admission under Lateral Entry in Engineering and Technology. Is there any provision in APH 2022-23?","Whether Lateral Entry is permitted in Diploma?","Whether students from SAARC Countries/ Foreign Nationals are permitted to admit underLateral Entry in Engineering Courses?"],
+    "responses": ["Refer Clause 7.14 of APH 2022-23."]
+    },
+    {"tag": "Affidavit can be submitted in e-Stamp Paper",
+    "patterns": ["Whether Affidavit can be submitted in e-Stamp Paper?"],
+    "responses": ["Yes"]
+    }
+]}
